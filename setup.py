@@ -561,6 +561,7 @@ setup(
         "einops",
     ],
     setup_requires=[
+        "torch",
         "packaging",
         "psutil",
         "ninja",
